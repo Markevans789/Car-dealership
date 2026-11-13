@@ -56,5 +56,36 @@ public class Vehicle {
         return price;
     }
 
+    //Setters
+    public void setmodel(String model){
+        this.model = model;
+    }
 
+    public void setColor(String color){
+        this.color = color;
+    }
+
+    public void setmake(String make){
+        this.make = make;
+    }
+
+    public void setMileage(int mileage){
+        this.mileage = mileage;
+    }
+
+    public void setyear(int year){
+        this.year = year;
+    }
+
+    public void settype(String type){
+        this.type = type;
+    }
+
+    public void setvin(int vin){
+        this.vin = vin;
+    }
+
+    public void setprice (double price){
+
+    }
 }
