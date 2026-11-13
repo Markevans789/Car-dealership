@@ -86,6 +86,6 @@ public class Vehicle {
     }
 
     public void setprice (double price){
-
+        this.price = price;
     }
 }
