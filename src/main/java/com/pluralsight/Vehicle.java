@@ -85,7 +85,7 @@ public class Vehicle {
         this.vin = vin;
     }
 
-    public void setprice (double price){
+    public void setprice (double price) {
         this.price = price;
     }
 }
