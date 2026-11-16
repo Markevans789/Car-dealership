@@ -18,8 +18,7 @@ public class Dealership {
                         this.name = name;
     }
 
-    // Create the inventory ArrayList
-    inventory = new ArrayList<Vehicle>();
+    invenetory = new ArrayList<Vehicle>();
 
     // Getters
     public String getAddress(){
@@ -32,5 +31,30 @@ public class Dealership {
 
     public String getName(){
         return name;
+    }
+
+    // Setter
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void addVehicle(Vehicle vehicle) {
+        inventory.add(vehicle);
+    }
+
+    public ArrayList<Vehicle> getAllVehicles() {
+        return inventory;
+    }
+
+    public void removeVehicle(Vehicle vehicle) {
+
     }
 }
