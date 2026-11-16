@@ -11,25 +11,25 @@ public class Dealership {
     private ArrayList<Vehicle> inventory;
 
     // Constructor
-    public Dealership(String address, String phone, String name){
+    public Dealership(String address, String phone, String name) {
 
         this.address = address;
-                this.phone = phone;
-                        this.name = name;
+        this.phone = phone;
+        this.name = name;
     }
 
-    invenetory = new ArrayList<Vehicle>();
+    invenetory =new ArrayList<Vehicle>();
 
     // Getters
-    public String getAddress(){
+    public String getAddress() {
         return address;
     }
 
-    public String getPhone(){
+    public String getPhone() {
         return phone;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
@@ -56,5 +56,25 @@ public class Dealership {
 
     public void removeVehicle(Vehicle vehicle) {
 
+    }
+
+    public ArrayList<Vehicle> getVehiclesByMakeModel(String make, String model) {
+        return null;
+    }
+
+    public ArrayList<Vehicle> getVehiclesByColor(String color) {
+        return null;
+    }
+
+    public ArrayList<Vehicle> getVehiclesByYear(int minYear, int maxYear) {
+        return null;
+    }
+
+    public ArrayList<Vehicle> getVehiclesByMileage(int min, int max) {
+        return null;
+    }
+
+    public ArrayList<Vehicle> getVehiclesByType(String type) {
+        return null;
     }
 }
