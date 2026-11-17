@@ -16,9 +16,9 @@ public class Dealership {
         this.address = address;
         this.phone = phone;
         this.name = name;
+        inventory = new ArrayList<>();
     }
-
-    invenetory =new ArrayList<Vehicle>();
+    
 
     // Getters
     public String getAddress() {

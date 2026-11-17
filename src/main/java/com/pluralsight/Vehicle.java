@@ -24,40 +24,40 @@ public class Vehicle {
     }
 
     //Getter
-    public String model(){
+    public String getModel(){
         return model;
     }
 
-    public String color(){
+    public String getColor(){
         return color;
     }
 
-    public String make(){
+    public String getMake(){
         return make;
     }
 
-    public int mileage(){
+    public int getMileage(){
         return mileage;
     }
 
-    public int year(){
+    public int getYear(){
         return year;
     }
 
-    public String type(){
+    public String getType(){
         return type;
     }
 
-    public int vin(){
+    public int getVin(){
         return vin;
     }
 
-    public double price(){
+    public double getPrice(){
         return price;
     }
 
     //Setters
-    public void setmodel(String model){
+    public void setModel(String model){
         this.model = model;
     }
 
@@ -65,7 +65,7 @@ public class Vehicle {
         this.color = color;
     }
 
-    public void setmake(String make){
+    public void setMake(String make){
         this.make = make;
     }
 
@@ -73,19 +73,19 @@ public class Vehicle {
         this.mileage = mileage;
     }
 
-    public void setyear(int year){
+    public void setYear(int year){
         this.year = year;
     }
 
-    public void settype(String type){
+    public void setType(String type){
         this.type = type;
     }
 
-    public void setvin(int vin){
+    public void setVin(int vin){
         this.vin = vin;
     }
 
-    public void setprice (double price) {
+    public void setPrice (double price) {
         this.price = price;
     }
 }
